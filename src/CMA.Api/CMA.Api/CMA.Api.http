@@ -1,0 +1,13 @@
+@CMA.Api_HostAddress = http://localhost:5140
+
+### 1. Criar uma nova carga de trabalho (POST)
+POST {{CMA.Api_HostAddress}}/api/workloads
+Content-Type: application/json
+
+{
+  "name": "Servidor de Aplicação Web",
+  "description": "Migração do ambiente IIS local para nuvem"
+}
+
+### 2. Consultar por ID (GET)
+GET {{CMA.Api_HostAddress}}/api/workloads/a58c3d13-6ab4-4e55-aa5a-a22517fa3599

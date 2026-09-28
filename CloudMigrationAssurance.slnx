@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/docs/" />
+  <Folder Name="/infra/" />
+  <Folder Name="/src/">
+    <Project Path="src/CMA.Api/CMA.Api/CMA.Api.csproj" Id="3f28d23b-ac2e-4e28-b09b-019eec2de18f" />
+    <Project Path="src/CMA.Application/CMA.Application.csproj" Id="384e9d06-2a09-4419-8b6a-76c952c1d14e" />
+    <Project Path="src/CMA.Domain/CMA.Domain.csproj" Id="0b00999d-81bc-4ea5-bba6-c06c3d8e40ff" />
+    <Project Path="src/CMA.Infrastructure/CMA.Infrastructure.csproj" Id="719eb77c-0284-4a66-bf3f-59acb584d476" />
+  </Folder>
+  <Folder Name="/tests/">
+    <File Path="src/CMA.Application/Workloads/Commands/CreateWorkloadUseCase.cs" />
+  </Folder>
+</Solution>
